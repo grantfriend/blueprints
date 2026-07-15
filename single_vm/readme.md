@@ -2,9 +2,13 @@
 
 ## Overview
 
-This blueprint deploys a single virtual machine using Nutanix NCM Self Service.
+This blueprint deploys a single virtual machine using Nutanix NCM Self Service. There is a runtime variable that accepts either webapp or database to then install an application on the Rocky Linux VM.
 
 It is intended as a simple example that can be used for demonstrations, learning, and as a starting point for building more advanced blueprints.
+
+Also included are Terraform files that trigger the deployment of the VM and the installation of the application depending on the variable used.
+
+Password for the shared secrets when uploading is nutanix123.
 
 ## Purpose
 
@@ -42,9 +46,9 @@ Additional configuration may be required depending on your environment.
 
 | Component        | Version       |
 | ---------------- | ------------- |
-| NCM Self Service | *Add version* |
-| Prism Central    | *Add version* |
-| AOS              | *Add version* |
+| NCM Self Service | v4.3.1 & NCM 2.1 |
+| Prism Central    | pc.7.5.1.1 |
+| AOS              | N/A |
 
 ## Deployment
 
@@ -61,6 +65,7 @@ Additional configuration may be required depending on your environment.
 | CPU      | Number of vCPUs             |
 | Memory   | VM memory allocation        |
 | Network  | Target network              |
+| Application  | install_type         |
 
 *(Update this table as the blueprint evolves.)*
 
@@ -73,6 +78,7 @@ This directory may contain supporting files required by the blueprint, such as:
 * Images
 * Documentation
 * Other supporting assets
+* Terraform files
 
 ## Known Limitations
 
