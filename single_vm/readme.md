@@ -33,10 +33,10 @@ Additional configuration may be required depending on your environment.
 
 | Item           | Details                                           |
 | -------------- | ------------------------------------------------- |
-| Blueprint Name | <Name>                                            |
-| Category       | <Infrastructure / Application / Database / Other> |
-| Complexity     | <Beginner / Intermediate / Advanced>              |
-| Status         | <Demo / Example / Work in Progress>               |
+| Blueprint Name | tf_demo_gf                                          |
+| Category       | Application                                        |
+| Complexity     | Beginner             |
+| Status         | Demo            |
 
 ## Tested With
 
