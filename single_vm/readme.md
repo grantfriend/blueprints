@@ -29,6 +29,15 @@ Before deploying, ensure that your environment has:
 
 Additional configuration may be required depending on your environment.
 
+## Blueprint Details
+
+| Item           | Details                                           |
+| -------------- | ------------------------------------------------- |
+| Blueprint Name | <Name>                                            |
+| Category       | <Infrastructure / Application / Database / Other> |
+| Complexity     | <Beginner / Intermediate / Advanced>              |
+| Status         | <Demo / Example / Work in Progress>               |
+
 ## Tested With
 
 | Component        | Version       |
@@ -55,6 +64,16 @@ Additional configuration may be required depending on your environment.
 
 *(Update this table as the blueprint evolves.)*
 
+## Supporting Content
+
+This directory may contain supporting files required by the blueprint, such as:
+
+* Scripts
+* Configuration files
+* Images
+* Documentation
+* Other supporting assets
+
 ## Known Limitations
 
 * Intended for demonstration purposes only.
@@ -70,6 +89,8 @@ Supporting scripts and files used by this blueprint are included within this dir
 
 This blueprint is provided **as-is**.
 
-There is **no support** from either me or Nutanix.
+There is **no support provided by me or Nutanix** for this content.
+
+Use this blueprint entirely at your own risk. Always validate and test in a non-production environment before using it in any
 
 Use this blueprint entirely at your own risk and always validate it in a lab environment before using it elsewhere.
